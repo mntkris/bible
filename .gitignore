@@ -4,5 +4,3 @@
 /data/*
 /tools/*
 !/tools/*.sh
-
-z_old

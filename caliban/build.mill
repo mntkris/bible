@@ -1,0 +1,19 @@
+package build
+
+import mill.*
+import scalalib.*
+
+
+object `package` extends ScalaModule:
+  
+  def scalaVersion = "3.7.4"
+  def mvnDeps = Seq(
+    mvn"dev.zio::zio:2.1.24",
+    mvn"com.github.ghostdogpr::caliban:2.11.2",
+  )
+
+  object test extends ScalaTests with TestModule.ZioTest:
+    def zioTestVersion = "2.1.24"
+  end test
+
+end `package`

@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "caliban"
+		},
+		{
+			"path": "django"
+		},
+		{
+			"path": "fastapi"
+		},
+		{
+			"path": "react"
+		},
+		{
+			"path": "data"
+		},
+		{
+			"path": "mybible"
+		},
+		{
+			"path": "tools"
+		}
+	],
+	"settings": {
+		"files.watcherExclude": {
+			"**/target": true
+		}
+	}
+}
